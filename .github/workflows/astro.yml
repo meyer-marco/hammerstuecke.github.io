@@ -62,7 +62,7 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
-        working-directory: ${{ env.BUILD_PATH }}
+        working-directory: ${{ env.BUILD_PATH }}/app
       - name: Build with Astro
         run: |
           ${{ steps.detect-package-manager.outputs.runner }} astro build \
