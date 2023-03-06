@@ -25,7 +25,7 @@ concurrency:
 
 env:
   # BUILD_PATH: "." # default value when not using subfolders
-  BUILD_PATH: app
+  BUILD_PATH: ./app
 
 jobs:
   build:
