@@ -7,5 +7,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [tailwind()],
   site: "https://meyer-marco.github.io/hammerstuecke.github.io/",
-  base: "/hammerstuecke.github.io",
+  base: "/meyer-marco.github.io/hammerstuecke.github.io",
 });
